@@ -1,0 +1,59 @@
+/*selector {property: value;} */
+
+body {
+	background-image: url(CanineSameEwe-small.gif);
+	background-size:cover;
+	font-style:italic;
+	font-family: 'Courier New', Courier, monospace;
+	background-repeat: no-repeat;
+	 background-attachment: fixed;
+			
+	  }
+.titlew {
+	text-align:center;
+	
+	margin: 40px 300px ;
+	font-size: 90px;
+	}
+.FRLlist {
+	  list-style:none;
+	  display: inline-block;
+	  text-align: left;
+	  }
+a {
+  color:rgba(255, 255, 170, 0.7);
+  text-decoration: none;
+}	  
+a:hover {
+  color:rgba(212, 106, 106);
+  text-decoration: none;
+  
+}
+
+.login {
+	
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	animation-name: login;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	
+}
+@keyframes login {
+	0% {color:red;}
+	25%{color:yellow;}
+	50%{color:blue;}
+	75%{color:green;}
+	100%{color:black;}
+}
+
+.topoptions {border: 3px solid;
+			 box-shadow:2px 2px 56px  red;
+	         font-size:30px;
+			 font-style:italic;
+			 font-family: 'Courier New', Courier, monospace;
+			 line-height: 40px;}
+

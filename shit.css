@@ -1,0 +1,67 @@
+/*selector {property: value;} */
+	* { text-align: center;}
+body {
+	background-image: url(photo-1511798616182-aab3698ac53e.jpg);
+	background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+                 
+    
+	
+      color:rgba(255, 101, 101);}
+	  
+	  
+h1 {
+    text-align: center;
+    border: 5px solid rgba(43, 109, 18,0.6);
+    cursor:pointer;	
+    display: inline-block;}
+.thetitle {font-family: georgia;
+           font-style:italic;}
+li { list-style: none;
+     display:inline;}
+li:hover {color:rgba(229, 30, 35);}
+a {
+  color:rgba(255, 255, 170, 0.7);
+  text-decoration: none;}	  
+a:hover {
+  color:rgba(212, 106, 106);
+text-decoration: none;}
+.mytext {line-height: 30px;
+         font-size:100%;
+		     font-style:italic;
+         font-family: 'Lilita One', cursive;
+         padding: 0px 200px 0px 0px;
+         
+         }
+.mytext:hover {color:rgba(229, 30, 35);}
+
+p:hover {color:rgba(229, 30, 35);}
+
+h3:hover {color:rgba(229, 30, 35);}
+
+#tas th  { text-align: center;
+     padding-top: 12px;
+     padding-bottom: 12px;
+     background-color:rgba(50, 41, 161, 0.5);
+     color: white;}
+	 
+tr {background-color:rgba(163, 156, 251, 0.5);
+       color: white;
+	   text-align: center;}
+	   
+.tb1 {background-color:rgba(138, 235, 123, 0.7);
+      color:black;
+	  text-align: center;}
+.tb2 {background-color:rgba(255, 255, 114, 0.7);
+      color:black;
+	  text-align: center;}
+.tb3 {background-color:rgba(254, 113, 117, 0.7);
+      color:black;
+	  text-align: center;}
+.yellow:hover {color:rgba(231, 220, 31);}
+.red:hover {color:rgba(255, 152, 152);}
+.green:hover {color:rgba(152, 254, 152);}
+img {float: left;}
+.right {float:right;}
+.back{clear:both;}
